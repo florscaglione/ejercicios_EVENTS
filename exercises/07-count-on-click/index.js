@@ -15,3 +15,13 @@ window.increaseCounter = function increaseCounter()
 	//update the screen with the new value
 	document.getElementById('screen').innerHTML = "The counter value is "+counter;
 }
+
+//función listener del evento "click" para disminuir el contador:
+window.decreaseCounter = function decreaseCounter()
+{
+	counter--;
+	//update the screen with the new value
+	document.getElementById('screen').innerHTML = "The counter value is "+counter;
+}
+
+//funciona!
